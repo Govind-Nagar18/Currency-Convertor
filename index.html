@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Convertor</title>
+</head>
+
+<body>
+    <main>
+
+        <center><h2>Currency Convertor</h2></center>
+        <input id="inputamount" type="number" placeholder="Enter the amount...">
+
+        <select id="from">
+            <option>INR</option>
+            <option>USD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>JPY</option>
+            <option>AUD</option>
+        </select>
+
+        <select id="to">
+            <option>INR</option>
+            <option>USD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>JPY</option>
+            <option>AUD</option>
+        </select>
+
+        <button onclick="convert()">Convert</button>
+
+        <p id="result"></p>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>

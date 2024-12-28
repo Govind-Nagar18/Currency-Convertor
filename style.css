@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(to left, rgb(185, 168, 168), rgb(121, 84, 84));
+    color: white;
+    font-family: sans-serif;
+}
+
+main
+{
+    height: 350px;
+    width: 50%;
+    margin: 100px auto;
+    background: linear-gradient(to right, rgb(199, 133, 144), rgb(212, 129, 212));
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+main #inputamnt
+{
+    padding: 10px;
+    width: 80%;
+    outline: none;
+}
+
+#from
+{
+    padding: 10px;
+    width: 80%;
+    outline: none; 
+}
+
+#to
+{
+    padding: 10px;
+    width: 80%;
+    outline: none; 
+}
+
+main button
+{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 20%;
+    background: rgb(179, 110, 83);
+    color: white;
+}
